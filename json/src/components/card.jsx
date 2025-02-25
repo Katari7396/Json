@@ -20,7 +20,7 @@ function Card() {
   return (
     <div className='container'>
 
-        <input type="text" placeholder='Search images' value={search} onChange={(e)=>setSearch(e.target.value)} 
+        <input type="text" placeholder='Search by name' value={search} onChange={(e)=>setSearch(e.target.value)} 
         className='search-input'/>
         
         <div className='images-container'>
